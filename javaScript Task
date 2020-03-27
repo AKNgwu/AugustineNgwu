@@ -1,2 +1,28 @@
 let myName = "Augustine Ngwu"
 let myCourses = ["Coding", "Frontend", "Design"];
+const data = [];
+
+ for (let i=0; i<=200; i++) {
+
+   if (i%2===0) {
+
+     data.push(i);
+
+   }
+
+ }
+
+ console.log(data);
+ const data = [];
+
+ for (let i=0; i<=100; i++) {
+
+   if (i%1===0) {
+
+     data.push(i);
+
+   }
+
+ }
+
+ console.log(data);
